@@ -1,9 +1,13 @@
+![](https://github.com/Zettersten/petersonnutrition.com/blob/master/src/i/fblogo.gif?raw=true)
+
 # petersonnutrition.com
+
 Peterson Nutrition &amp; Fitness, Richmond, VA http://www.petersonnutrition.com/
 
 ## Getting started
 
-1. Clone repo https://github.com/Zettersten/petersonnutrition.com.git
+1. Clone repo 
+   1. $ git clone https://github.com/Zettersten/petersonnutrition.com.git`
 2. Install dependencies:
    1. `$ npm install gulp -g`
    2. `$ npm install`
@@ -12,7 +16,7 @@ Peterson Nutrition &amp; Fitness, Richmond, VA http://www.petersonnutrition.com/
 
 ## Deploy
 
-Create a .env.json file with the following object in the root of this project's directory
+Create a `.env.json` file with the following object in the root of this project's directory
 
 ```json
 {
