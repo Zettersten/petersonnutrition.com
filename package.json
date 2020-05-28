@@ -14,5 +14,11 @@
     "bugs": {
         "url": "https://github.com/Zettersten/petersonnutrition.com/issues"
     },
-    "homepage": "https://github.com/Zettersten/petersonnutrition.com#readme"
+    "homepage": "https://github.com/Zettersten/petersonnutrition.com#readme",
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-env": "^0.4.0",
+        "gulp-webserver": "^0.9.1",
+        "vinyl-ftp": "^0.6.1"
+    }
 }
