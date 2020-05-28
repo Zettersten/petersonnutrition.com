@@ -1,19 +1,18 @@
 {
-  "name": "petersonnutrition.com",
-  "version": "1.0.0",
-  "description": "Nutrition and fitness guidance for individuals and groups",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Zettersten/petersonnutrition.com.git"
-  },
-  "author": "Erik Zettersten <erik@nenvy.com>",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/Zettersten/petersonnutrition.com/issues"
-  },
-  "homepage": "https://github.com/Zettersten/petersonnutrition.com#readme"
+    "name": "petersonnutrition.com",
+    "version": "1.0.0",
+    "description": "Nutrition and fitness guidance for individuals and groups",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Zettersten/petersonnutrition.com.git"
+    },
+    "author": "Erik Zettersten <erik@nenvy.com>",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/Zettersten/petersonnutrition.com/issues"
+    },
+    "homepage": "https://github.com/Zettersten/petersonnutrition.com#readme"
 }
