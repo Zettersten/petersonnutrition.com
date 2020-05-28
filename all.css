@@ -1,0 +1,156 @@
+@charset "UTF-8";
+body {background:#ededd1 url(i/bg.gif) repeat-x;font:100% "Trebuchet MS",Arial,Helvetica,sans-serif;margin:0;padding:0;text-align:center;color:#666}
+
+#hide{display:none}
+.print{display:none}	
+img{border:0}
+
+.img{padding:3px; border:1px solid #ccc}
+
+.payL{margin-right:10px}
+
+.cr{text-align:center}
+.hr{margin:20px 0 20px;border-bottom:1px solid #dadab8;font-size:0;padding:0}
+
+body,p,li,td{font:12px/155% "Trebuchet MS",Arial,Helvetica,sans-serif;color:#666}
+p{margin:10px 0 0}
+li{margin-right:20px}
+h1,h2,h3{font:bold 100%/120% "Trebuchet MS",Arial,Helvetica,sans-serif}
+h1{color:#5c5016;font-size:23px;margin:15px 0 10px}
+h2{color:#a9a54e;font-size:20px;margin:15px 0 10px}
+h3{color:#626e88;font-size:17px;margin:15px 0 10px}
+h4{color:#884937;font-size:13px;margin:15px 0 10px}
+
+.quote {margin:0;background:transparent url(i/quote.gif) no-repeat}
+.tesaserq {margin:0;background:transparent url(i/question.gif) no-repeat}
+.tesaserq {margin:0;background:transparent url(i/question.gif) no-repeat}
+.swirl {margin:0;background:transparent url(i/swirl.gif) no-repeat}
+.fw {margin:0;background:transparent url(i/fw.gif) no-repeat}
+
+.principle{color:#607F00;font:bold 125% "Trebuchet MS", Arial, Helvetica, sans-serif}
+
+.question {color:#884937;font-weight:bold;margin:20px 0 10px 0;padding:20px 0 0 20px;background:transparent url(i/Q.gif) no-repeat;border-top:1px solid #dadab8}
+
+.answer1 {margin:10px 0 0 0;padding:0 0 0 20px;background:transparent url(i/A.gif) no-repeat}
+.answer2 {margin:0;padding:10px 0 0 20px}
+
+.boxed{border-top: 3px solid #dadab8;border-bottom: 3px solid #dadab8;text-transform:uppercase}
+
+/* Global Nav */
+
+div#globalnav{height:140px;width:900px;margin:0;padding:0}
+div#globalnav ul#menu{height:140px;width:900px;background:transparent url(i/nav.gif) top left no-repeat;margin:0;padding:0;position:relative}
+div#globalnav ul#menu li{margin:0;padding:0;list-style:none;position:absolute;top:0px}
+ul#menu li, ul#menu a{height:140px;display: block}
+div#globalnav ul#menu li a{text-indent:-9999px;text-decoration:none}
+	
+#nav00{left:0;width:220px}
+#nav01{left:219px;width:102px}
+#nav02{left:320px;width:109px}
+#nav03{left:428px;width:122px}
+#nav04{left:549px;width:109px}
+#nav05{left:657px;width:132px}
+#nav06{left:788px;width:112px}
+
+#nav01 a:hover{background:transparent url(i/nav.gif) -219px -140px no-repeat}
+#nav02 a:hover{background:transparent url(i/nav.gif) -320px -280px no-repeat}
+#nav03 a:hover{background:transparent url(i/nav.gif) -428px -420px no-repeat}
+#nav04 a:hover{background:transparent url(i/nav.gif) -549px -560px no-repeat}
+#nav05 a:hover{background:transparent url(i/nav.gif) -657px -700px no-repeat}
+#nav06 a:hover{background:transparent url(i/nav.gif) -788px -840px no-repeat}
+
+
+
+/* navigation */
+
+a{outline:none}
+area{outline:none}
+
+a:link{color:#cc6600}
+a:visited{color:#cc6600}
+a:active{color:#cc6600}
+a:hover{color:#666}
+
+
+
+/* Header */
+
+#header {width:900px;margin:0 auto; padding:20px 10px;text-align:left}
+#header #headrt {float:right;text-align:right;font-size:14px}
+
+
+/* Layout */
+
+#container {width:900px;background:#f4f4e3;margin:15px auto;padding:0;text-align:left;border:1px solid #ccc;border:5px solid #FFF}
+
+  #content {text-align:left}
+  
+	#sidebar {float:left;width:219px;background: #f4f4e3 url(i/leftsidebg.gif) no-repeat}
+		#sidebar p, #sidebar h4{padding:0 20px;margin:10px 0}
+
+	#mainContent {background:#FFF;float:left;width:680px;margin-right:-3px;border-left:1px solid #FFF}
+	
+		#mainContentLeft {width:480px;float:left;background:#FFF}
+		
+		#mainContentLeftPad {padding:10px 20px 20px}
+		
+		#mainContentFullPad {padding:10px 20px 20px}
+		
+		#mainContentRight {float:left;margin-right:-3px;width:200px;background:#FFF}
+			#mainContentRightPad {padding:25px 20px 20px}
+
+
+/* Home Only */
+
+#homeContent {margin:30px;padding:0;background:#fff}
+#homeModules {margin:0 30px 30px;padding:0;background:#fff}
+	#lt {float:left;width:256px;margin-right:36px}
+	#mid {float:left;width:256px;margin-right:36px}
+	#rt {float:left;width:256px}
+
+
+/* Float Stuff */
+
+.fltrt{float:right;margin:20px 0 20px 20px}
+.fltlft{float:left;margin:20px 20px 20px 0}
+.clearfloat{clear:both;height:0;font-size:1px;line-height:0}
+
+
+/* Side Nav */
+
+.sidehead{font:15px/100% "Trebuchet MS", Arial, Helvetica, sans-serif;color:#FFF;margin:0 0 0 15px;padding:5px 0 15px}
+
+#navcontainer ul{list-style-type:none;text-align:left;margin:0 0 0 15px;padding:0}
+
+#navcontainer li{padding:0}
+
+#navcontainer ul li a{background:transparent url(i/list-off.gif) left center no-repeat;padding-left:10px;text-align:left;font:bold 12px/200% "Trebuchet MS",Arial,Helvetica, sans-serif;text-decoration:none;color:#413600;border:0}
+#navcontainer ul li a:hover{color:#b33c26;background:transparent url(i/list-on.gif) left center no-repeat}
+#navcontainer ul li a#current{color:#b33c26;background: transparent url(i/list-on.gif) left center no-repeat}
+
+#navcontainer .sub {font-size:11px}
+
+
+/* Footer */
+
+#footer {width:900px;margin:4px auto; padding:0 10px 20px;text-align:left}
+#footer #footlft {width:600px;float:left;font-size:11px}
+#footer #footrt {float:right;text-align:right;font-size:11px}
+
+
+.blogdate{color:#C0C0C0;font:bold 10px/100% "Trebuchet MS",Arial, Helvetica, sans-serif;margin:30px 0 0; letter-spacing:2px;text-transform:uppercase}
+.blogpost{margin:5px 0 0}
+
+
+#skip a, #skip a:hover, #skip a:visited {position:absolute;left:0px;top:-500px;width:1px;height:1px;overflow:hidden;} 
+#skip a:active{position:static;width:auto;height:auto;} 
+
+
+.pdf { padding: 0;margin:10px 0 0 0}
+.pdf li {list-style: none;margin:0;	padding: 2px 0 5px 23px;background: url(i/icon_pdf.gif) no-repeat left 2px;}
+
+.link{padding:0;margin:10px 0 0 0}
+.link li {list-style: none;margin:0;padding: 1px 0 5px 18px;background: url(i/icon_link.gif) no-repeat left 3px;}
+
+.intlink{padding:0;margin:10px 0 0 0}
+.intlink li {list-style: none;margin:0;padding: 0 0 5px 16px;background: url(i/icon_intlink.gif) no-repeat left 3px;}
