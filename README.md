@@ -7,7 +7,7 @@ Peterson Nutrition &amp; Fitness, Richmond, VA http://www.petersonnutrition.com/
 ## Getting started
 
 1. Clone repo 
-   1. $ git clone https://github.com/Zettersten/petersonnutrition.com.git`
+   1. `$ git clone https://github.com/Zettersten/petersonnutrition.com.git`
 2. Install dependencies:
    1. `$ npm install gulp -g`
    2. `$ npm install`
