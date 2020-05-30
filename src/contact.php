@@ -73,7 +73,7 @@
 			</ul>
 
                       <p class="hr">&nbsp;</p>
-                      <p class="tesaserq">Is nutrition counseling covered by my insurance? Can I pay via credit card?</p>
+                      <p class="tesaserq">May we meet by telehealth? Is nutrition counseling covered by my insurance? Can I pay via credit card?</p>
                       <ul class="intlink">
                         <li><a href="faq.html">Get answers to FAQs</a>                  </li>
                         
@@ -103,6 +103,41 @@
 
 </div><!-- end #container -->
 
-	<include src="shared/footer.html"></include>
+<!-- start #footer -->
+<div id="footer">
+    <div id="footlft">
+        &copy; 2020 Peterson Nutrition &amp; Fitness |
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="services.html">Services</a> |
+        <a href="news.html">News</a> |
+        <a href="resources.html">Resources</a> |
+        <a href="contact.php">Contact</a> |
+        <a href="sitemap.html">Sitemap</a>
+    </div>
+    <div id="footrt">
+        Follow:
+        <a href="http://www.facebook.com/pages/Peterson-Nutrition-Fitness/193558414029183">
+            <img src="i/tiny_facebook.gif" alt="follow on facebook" />
+        </a>
+        <a href="https://twitter.com/Elisabeth_Pete">
+            <img src="i/tiny_twitter.gif" alt="follow on twitter" />
+        </a>
+        <a href="https://instagram.com/stayhomeandeatwithme">
+            <img src="i/tiny_insta.png" style="height:18px;width:16px;margin-left:3px" alt="follow on instagram" />
+        </a>
+    </div>
+    <br class="clearfloat" />
+</div>
+<!-- end #footer -->
+
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    try {
+        var pageTracker = _gat._getTracker("UA-9692751-1");
+        pageTracker._trackPageview();
+    } catch (err) {}
+</script>
 </body>
 </html>

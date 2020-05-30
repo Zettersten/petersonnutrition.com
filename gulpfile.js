@@ -17,7 +17,7 @@ gulp.task("dev", function() {
 });
 
 gulp.task("html-include", function() {
-    return gulp.src("./src/**/*.html")
+    return gulp.src("./src/*.html")
         .pipe(include())
         .pipe(gulp.dest("./dist/"));
 });
