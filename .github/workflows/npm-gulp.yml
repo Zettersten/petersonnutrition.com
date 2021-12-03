@@ -8,6 +8,12 @@ on:
 
 jobs:
   build:
+  
+    env:
+      FTP_HOST: "ftp.petersonnutrition.com"
+      FTP_USER: "admin@petersonnutrition.com"
+      FTP_PASSWORD: FTP_HOST
+    
     runs-on: ubuntu-latest
 
     strategy:
