@@ -51,6 +51,6 @@ gulp.task("deploy", gulp.series("clean", "html-include", "build", function() {
 
     return gulp.src("./dist/**/*", { base: "./dist", buffer: false })
         .pipe(conn.newer("/dist")) // only upload newer files
-        .pipe(conn.dest("/public_html/PNF"));
+        .pipe(conn.dest("/public_html"));
 
 }));
