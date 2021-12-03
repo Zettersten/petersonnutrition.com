@@ -40,6 +40,9 @@ gulp.task(
   gulp.series("clean", "html-include", "build", function() {
     // env({ file: ".env.json" });
 
+    gutil.log("FTP_HOST: " + process.env.FTP_HOST);
+    gutil.log("FTP_USER: " + process.env.FTP_USER);
+
     var conn = ftp.create({
       host: process.env.FTP_HOST,
       user: process.env.FTP_USER,
