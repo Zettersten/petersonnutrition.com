@@ -42,14 +42,15 @@ gulp.task(
 
     gutil.log("FTP_HOST: " + process.env.FTP_HOST);
     gutil.log("FTP_USER: " + process.env.FTP_USER);
-    gutil.log("FTP_PASSWORD: " + process.env.FTP_PASSWORD + "1");
+    gutil.log("FTP_PASSWORD: " + process.env.FTP_PASSWORD);
 
     var conn = ftp.create({
       host: process.env.FTP_HOST,
       user: process.env.FTP_USER,
       password: process.env.FTP_PASSWORD,
       parallel: 2,
-      log: gutil.log
+      log: gutil.log,
+      rejectUnauthorized: false
     });
 
     return gulp
