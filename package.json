@@ -23,7 +23,7 @@
         "gulp-webserver": "^0.9.1",
         "lodash.template": ">=4.5.0",
         "open": ">=6.0.0",
-        "qs": ">=6.0.4",
+        "qs": ">=6.9.7",
         "vinyl-ftp": "^0.6.1"
     }
 }
